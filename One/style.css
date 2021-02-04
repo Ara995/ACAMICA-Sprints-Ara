@@ -1,0 +1,239 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'IBM Plex Sans', sans-serif;
+    /* border: 1px solid; */
+}
+
+html { 
+    font-size:62.5%
+}
+
+header {
+    min-width: 30rem;
+    max-width: 35rem;
+    margin-left: auto;
+    margin-right: auto;
+    width:100%;
+    height:5rem;
+}
+
+.main_body {
+    min-width: 30rem;
+    max-width: 35rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.first-section {
+    display: flex;
+    flex-direction: column;
+}
+
+.first-section-title {
+    font-size: 4.5rem;
+    font-weight: 300;
+    margin-top:4rem;
+    margin-bottom: 1rem ;
+
+}
+
+.first-section-text {
+    font-size: 1.5rem;
+    font-weight: 300;
+    margin-top:2rem;
+    margin-bottom: 4rem ;
+
+}
+
+.first-section-button {
+    align-self: center;
+    width:28.8rem;
+    height:4.8rem;
+    margin-bottom: 7rem;
+    background-color: #00F3BB;
+    border:none;
+
+}
+
+.second-section {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 4rem;
+}
+
+.second-section-title {
+    font-size: 4.5rem;
+    font-weight: 300;
+    margin-top:4rem;
+    margin-bottom: 2rem ;
+    color:white;
+}
+
+.second-section-podcasts{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.podcast {
+    width:100%;
+    margin-bottom: 0rem;
+
+}
+
+.polygon {
+    height: 1400px;
+    width:100%;
+    background-color: blue;
+    position: absolute;
+    z-index: -1;
+    top:420px;
+    align-self: center;
+    
+}
+
+.clip-path {
+    clip-path: polygon(0 5%, 100% 0%, 100% 95%, 0 100%);
+}
+
+.third-section {
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+.third-section-title {
+    font-size: 4.5rem;
+    font-weight: 300;
+    margin-top:4rem;
+    margin-bottom: 2rem ;
+
+}
+
+.third-section-text {
+    font-size: 1.5rem;
+    font-weight: 300;
+    margin-top:4rem;
+    margin-bottom: 2rem ;
+
+}
+
+
+.fourth-section-title {
+    font-size: 4.5rem;
+    font-weight: 300;
+    margin-top:4rem;
+    margin-bottom: 2rem ;
+
+}
+
+
+.photos {
+    margin-bottom: -1rem;
+}
+
+.fifth-section-title {
+    font-size: 4.5rem;
+    font-weight: 300;
+    margin-top:4rem;
+    margin-bottom: 2rem ;
+
+}
+
+.fifth-section-holders {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 5rem;
+}
+
+.icon-text {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.icon-text .subtitle {
+    font-size: 2rem;
+    margin-top: 2rem;
+}
+
+.sixth-section {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+.sixth-section-title {
+    font-size: 4.5rem;
+    font-weight: 300;
+    margin-top:5rem;
+    margin-bottom: 2rem ;
+    margin-left: 10%;
+    margin-right: 10%;
+    color:white;
+}
+
+.sixth-section-button {
+    align-self: center;
+    width:28.8rem;
+    height:4.8rem;
+    margin-bottom: 7rem;
+    background-color: #00F3BB;
+    border:none;
+
+}
+
+.polygon2 {
+    height: 350px;
+    width:200%;
+    background-color: blue;
+    position: absolute;
+    z-index: -1;
+    bottom:0;
+    align-self: center;
+    
+}
+
+.clip-path2 {
+    clip-path: polygon(0 10%, 100% 0%, 100% 100%, 0 100%);
+}
+
+
+ /* Footer */
+
+
+
+ .footer-text {
+    display: flex;
+    justify-content: center;
+    font-size: 1.6rem;
+    font-weight: 200;
+    margin-top: 3rem;
+
+
+
+}
+
+.Footer-icons {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+
+}
+
+
+/* @media screen and (min-width:  Colocar aqui las medidas) { Colocar los estilos que van a tomarse en cuenta} Solo atender los que se rompen
+
+@media screen and (min-width:  900px) 
+{ .Footer-icons {
+    margin-top:4rem;
+}
+} */

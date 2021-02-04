@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "../Sprint1"
+		},
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "One"
+	}
+}
