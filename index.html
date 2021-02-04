@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="esp">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Liga de archivos CSS -->
+    <link rel="stylesheet" href="./style.css"> <!-- Este es el Mobile, bajo Mobile First -->
+    <link rel="stylesheet" href="./tablet.css" media="screen and (min-width: 768px)"> <!-- Este es el Tablet, bajo Mobile First -->
+    <link rel="stylesheet" href="./desktop.css" media="screen and (min-width: 1024px)"> <!-- Este es el Desktop, bajo Mobile First -->
+    <link rel="preconnect" href="https://fonts.gstatic.com"> 
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+   
+    <title>Prueba de maquetacion</title>
+</head>
+
+<body>
+
+    <!-- EN ESTA SECCIÓN VA EL HEADER: Que debe incluir un menu y el icono como anchor -->
+    <header class="main_header">
+        <div class="header-logo"><img src="./img/logo.svg" alt=""></div>
+        <input class="menu-btn" type="checkbox" id="menu-btn"/>
+        <label class="menu-icon" for="menu-btn"><span class="nav-icon"></span></label>
+        <ul>
+            <li><a href="#">EPISODIOS</a></li>
+            <li><a href="">NOSOTROS</a></li>
+            <li><a href="">ENTREVISTAS</a></li>
+            <li><a href="">TÓPICOS</a></li>
+        </ul>
+
+
+
+
+
+    </header>
+
+    <!-- EN ESTA SECCIÓN VA EL BODY, AQUÍ VAMOS A PONER LOS LÍMITES DE VISTA, NO ESTÁN EN EL BODY PARA NO LIMITAR LAS IMÁGENES -->
+    <main class="main_body">
+
+
+        <!-- FIRST SECTION: Incluye título principal, copy y botón CTA-->
+        <section class="first-section">
+            <h2 class="first-section-title">Hello <del>world</del> pale blue dot <span class="blue">.</span></h2>
+            <p class="first-section-text">Un podcast que explora el mundo de la programación. <br>Nuevos episodios, todos los jueves cada 15 días.</p>
+            <button class="first-section-button">CONOCÉ MÁS</button>
+        </section>
+
+
+         <!-- SECOND SECTION: Incluye los episodios y las ligas a los podcasts-->
+        <section class="second-section">
+            <h2 class="second-section-title">Episodios</h2>
+            <div class="second-section-podcasts">
+                <div class="podcast"><iframe scrolling="no" src="https://open.spotify.com/embed-podcast/show/0iW21xFsrH509BGTEs3ufN" width="100%" height="250px" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe></div>
+                <div class="podcast"><iframe scrolling="no" src="https://open.spotify.com/embed-podcast/show/7yzLFD8FB57LYHvSAkWJMR" width="100%" height="250px" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe></div>
+                <div class="podcast"><iframe scrolling="no" src="https://open.spotify.com/embed-podcast/show/5bTNEcIqTwadNbcV2n5GEf" width="100%" height="250px" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe></div>
+                <div class="podcast"><iframe scrolling="no" src="https://open.spotify.com/embed-podcast/show/4SJvM40FiMoVfAVPn7aXCQ" width="100%" height="250px" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe></div>
+            </div>
+            <div class="polygon clip-path"></div> <!-- FONDO AZUL DE LA SEGUNDA SECCIÓN-->
+        </section>
+
+
+         <!-- THIRD SECTION: Foto de iphone, título y texto-->
+        <section class="third-section">
+            <div class="third-section-photo">
+                <figure class="third-section-phone"><img src="./img/phone.png" alt="Phone with podcasts" width="100%"></figure>
+            </div>
+            <div class="third-section-textblock"> 
+                <h2 class="third-section-title">De dónde venimos</h2>
+                <p class="third-section-text">Our posturings, our imagined self-importance, the delusion that we have some priviledge position in the Universe, are challenged by this point of pale light.
+                Our planet is a lonely speck in the great enveloping cosmic dark. In our obscurity, in all this vastness, there is no hint that help will come from elsewhere to save us from ourselves.</p>
+            </div>
+        </section>
+
+
+        <h2 class="fourth-section-title">Invitadas/os especiales</h2>
+
+          </main> <!-- AQUI QUITAMOS LOS MÁRGENES PARA QUE LAS IMÁGENES ABARQUEN EL WIDTH COMPLETO-->
+
+        <!-- FOURTH SECTION: Foto de iphone, título y texto-->
+        <section class="fourth-section">
+            <div class="fourth-section-column1">
+                <figure class="photos"><img src="./img/grace-hopper.png" alt="open" width="100%"></figure>
+                <figure class="photos"><img src="./img/Katie-Bouman.png" alt="open" width="100%"></figure>
+                <figure class="photos"><img src="./img/Margaret_Hamilton.png" alt="open" width="100%"></figure>
+            </div>
+            <div class="fourth-section-column2">
+                 <figure class="photos"><img src="./img/An E.R.A.Univac 1103 computer in the 1950s.png" alt="open" width="100%"></figure>
+                <figure class="photos"><img src="./img/Computer operators with an Eniac — the world’s first programmable general-purpose computer.png"
+                 alt="open" width="100%"></figure>
+                 <figure class="photos"><img src="./img/susan-kare.png" alt="open" width="100%"></figure>
+            </div>
+        </section>
+
+
+        <main class="main_body"> <!-- AQUI COLOCAMOS NUEVAMENTE LOS MÁRGENES PARA QUE LAS IMÁGENES ABARQUEN EL WIDTH COMPLETO-->
+
+            <section class="fifth-section"> <!-- FIFTH SECTION: Titulo, combo de icono con texto-->
+                <h2 class="fifth-section-title">Algunos de nuestros temas</h2>
+
+                <div class="fifth-section-holders">
+                    <div class=icon-text>
+                        <figure class="icon"><img src="./img/icon1.svg" alt="Icon1"></figure>
+                        <h4 class="subtitle">Trabajo remoto</h4>
+                    </div>
+
+                    <div class=icon-text>
+                        <figure class="icon"><img src="./img/icon2.svg" alt="Icon1"></figure>
+                        <h4 class="subtitle">Repensando la <br>programación</h4>
+                    </div>
+
+                    <div class=icon-text>
+                        <figure class="icon"><img src="./img/icon3.svg" alt="Icon1"></figure>
+                        <h4 class="subtitle">Bases del código</h4>
+                    </div>
+
+                    <div class=icon-text>
+                        <figure class="icon"><img src="./img/icon4.svg" alt="Icon1"></figure>
+                        <h4 class="subtitle">Seguridad informática</h4>
+                    </div>
+
+                </div>
+                
+            </section>
+
+            <!-- AQUI COLOCAMOS LA SEXTA SECCIÓN EN DONDE ESTÁ UNA FRASE Y UN BOTÓN CTA -->
+
+            <section class="sixth-section">
+                <h2 class="sixth-section-title">¿Querés las últimas novedades?</h2>
+                <button class="sixth-section-button">ESCUCHÁ LOS EPISODIOS</button>
+                <div class="polygon2 clip-path2"></div> <!-- FONDO AZUL DE LA SEGUNDA SECCIÓN-->
+
+
+            </section>
+
+
+            <!-- AQUI VA EL FOOTER -->
+
+            <footer>
+          
+                <span class="footer-text"> &#169; 2019 - Hello blue pale dot</span>
+           
+                <div class="Footer-icons">
+                    <figure><img class="footer-icon" src="https://cdn0.iconfinder.com/data/icons/social-glyph/30/spotify-480.png" alt="Spotify icon" width="18px"></figure>
+                    <figure><img class="footer-icon" src="https://cdn1.iconfinder.com/data/icons/social-media-outline-6/128/SocialMedia_Instagram-Outline-512.png" alt="Instagram" width="19px"></figure>
+                    <figure><img class="footer-icon" src="https://cdn3.iconfinder.com/data/icons/social-media-black-white-2/512/BW_Twitter_glyph_svg-512.png" alt="Twitter" width="19px"></figure>
+                    <figure><img class="footer-icon" src="https://cdn4.iconfinder.com/data/icons/social-media-free-13/32/Facebook_social_media_logo-128.png" alt="FAcebook" width="19px"></figure>
+                    <figure><img class="footer-icon" src="https://cdn1.iconfinder.com/data/icons/andriod-app-logo/32/icon_telegram-512.png" alt="Telegram" width="19px"></figure>
+                </div>
+            </footer>
+
+
+        </main>
+
+  
+    
+
+</body>
+</html>
